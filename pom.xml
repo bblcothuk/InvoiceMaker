@@ -4,7 +4,7 @@
   <artifactId>InvoiceMaker</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>InvoiceMaker</name>
-  <description>Makes inoices of invoice lists</description>
+  <description>Makes invoices of invoice lists</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -38,11 +38,6 @@
   		<groupId>org.apache.poi</groupId>
   		<artifactId>poi-ooxml</artifactId>
   		<version>3.17</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.hibernate</groupId>
-  		<artifactId>hibernate-core</artifactId>
-  		<version>5.3.1.Final</version>
   	</dependency>
   </dependencies>
 </project>

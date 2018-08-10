@@ -108,10 +108,6 @@ public class InvoiceMaker {
 		return invoiceList;
 	}
 	
-	private static void uploadToDB() {
-		
-	}
-	
 	private static void makeInvoices(Path registry, int startPosition, boolean print, String initiator,
 			String paymentDate) throws FileNotFoundException, IOException, ParseException {
 		ArrayList<Invoice> invoiceList = getInvoiceList(registry, startPosition, initiator, paymentDate);
