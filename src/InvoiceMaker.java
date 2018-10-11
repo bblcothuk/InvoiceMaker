@@ -120,10 +120,19 @@ public class InvoiceMaker {
 				printTarget(curInvoice.getFilePath());
 		}
 	}
+	
+	static String getLoggedInFullName() {
+		String fullName;
+		fullName = System.getProperty("user.fullname");
+		
+	    System.out.println("username = " + fullName);
+	    
+		return fullName;
+	}
 
 	public static void main(String[] args) {
-
-		Options opt = new Options();
+		getLoggedInFullName();
+/*		Options opt = new Options();
 
 		opt.addOption("help", false, "Help message.");
 		opt.addOption("i", true, "Target path for registry file.");
@@ -148,5 +157,5 @@ public class InvoiceMaker {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-	}
+*/	}
 }
